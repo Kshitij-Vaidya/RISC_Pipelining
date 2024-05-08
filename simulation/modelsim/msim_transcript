@@ -1,0 +1,108 @@
+# Reading C:/Users/ravan/Desktop/Quartus/modelsim_ase/tcl/vsim/pref.tcl
+# do IITB_RISC_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/Users/ravan/Desktop/Quartus/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/ravan/Desktop/Micro Lab/micro_project/JK_FLipFlop.vhdl}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:36:27 on May 07,2024
+# vcom -reportprogress 300 -93 -work work C:/Users/ravan/Desktop/Micro Lab/micro_project/JK_FLipFlop.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity JK_FLipFlop
+# -- Compiling architecture struct of JK_FlipFlop
+# End time: 16:36:27 on May 07,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/ravan/Desktop/Micro Lab/micro_project/mat_pak.vhdl}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:36:27 on May 07,2024
+# vcom -reportprogress 300 -93 -work work C:/Users/ravan/Desktop/Micro Lab/micro_project/mat_pak.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package mat_pak
+# End time: 16:36:27 on May 07,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/ravan/Desktop/Micro Lab/micro_project/Gates.vhdl}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:36:28 on May 07,2024
+# vcom -reportprogress 300 -93 -work work C:/Users/ravan/Desktop/Micro Lab/micro_project/Gates.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package Gates
+# -- Compiling entity INVERTER
+# -- Compiling architecture Equations of INVERTER
+# -- Compiling entity AND_2
+# -- Compiling architecture Equations of AND_2
+# -- Compiling entity NAND_2
+# -- Compiling architecture Equations of NAND_2
+# -- Compiling entity OR_2
+# -- Compiling architecture Equations of OR_2
+# -- Compiling entity NOR_2
+# -- Compiling architecture Equations of NOR_2
+# -- Compiling entity XOR_2
+# -- Compiling architecture Equations of XOR_2
+# -- Compiling entity XNOR_2
+# -- Compiling architecture Equations of XNOR_2
+# End time: 16:36:28 on May 07,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/ravan/Desktop/Micro Lab/micro_project/temp_rf.vhdl}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:36:28 on May 07,2024
+# vcom -reportprogress 300 -93 -work work C:/Users/ravan/Desktop/Micro Lab/micro_project/temp_rf.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package Gates
+# -- Compiling entity Temp_File
+# -- Compiling architecture struct of Temp_File
+# End time: 16:36:28 on May 07,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/ravan/Desktop/Micro Lab/micro_project/MUXM3_41.vhdl}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:36:28 on May 07,2024
+# vcom -reportprogress 300 -93 -work work C:/Users/ravan/Desktop/Micro Lab/micro_project/MUXM3_41.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package Gates
+# -- Compiling entity MUXM3_41
+# -- Compiling architecture Struct of MuxM3_41
+# End time: 16:36:28 on May 07,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/ravan/Desktop/Micro Lab/micro_project/counter.vhdl}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:36:28 on May 07,2024
+# vcom -reportprogress 300 -93 -work work C:/Users/ravan/Desktop/Micro Lab/micro_project/counter.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package Gates
+# -- Compiling entity counter
+# -- Compiling architecture struct of counter
+# ** Error: C:/Users/ravan/Desktop/Micro Lab/micro_project/counter.vhdl(19): (vcom-1436) Actual expression (infix expression) of formal "Preset" is not globally static.
+# ** Error: C:/Users/ravan/Desktop/Micro Lab/micro_project/counter.vhdl(20): (vcom-1436) Actual expression (infix expression) of formal "Preset" is not globally static.
+# ** Error: C:/Users/ravan/Desktop/Micro Lab/micro_project/counter.vhdl(21): (vcom-1436) Actual expression (infix expression) of formal "J" is not globally static.
+# ** Error: C:/Users/ravan/Desktop/Micro Lab/micro_project/counter.vhdl(21): (vcom-1436) Actual expression (infix expression) of formal "K" is not globally static.
+# ** Error: C:/Users/ravan/Desktop/Micro Lab/micro_project/counter.vhdl(21): (vcom-1436) Actual expression (infix expression) of formal "Preset" is not globally static.
+# ** Error: C:/Users/ravan/Desktop/Micro Lab/micro_project/counter.vhdl(22): (vcom-1436) Actual expression (infix expression) of formal "J" is not globally static.
+# ** Error: C:/Users/ravan/Desktop/Micro Lab/micro_project/counter.vhdl(22): (vcom-1436) Actual expression (infix expression) of formal "K" is not globally static.
+# ** Error: C:/Users/ravan/Desktop/Micro Lab/micro_project/counter.vhdl(22): (vcom-1436) Actual expression (infix expression) of formal "Reset" is not globally static.
+# ** Error: C:/Users/ravan/Desktop/Micro Lab/micro_project/counter.vhdl(28): VHDL Compiler exiting
+# End time: 16:36:28 on May 07,2024, Elapsed time: 0:00:00
+# Errors: 9, Warnings: 0
+# ** Error: C:/Users/ravan/Desktop/Quartus/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./IITB_RISC_run_msim_rtl_vhdl.do line 13
+# C:/Users/ravan/Desktop/Quartus/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom -93 -work work {C:/Users/ravan/Desktop/Micro Lab/micro_project/counter.vhdl}"
